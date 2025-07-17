@@ -1,7 +1,4 @@
-package com.machinecoding.messagequeues.events;
-
-import com.machinecoding.messagequeues.events.model.Event;
-import com.machinecoding.messagequeues.events.model.EventPriority;
+package com.machinecoding.messagequeues.events.model;
 
 /**
  * Event fired when a new user registers in the system.

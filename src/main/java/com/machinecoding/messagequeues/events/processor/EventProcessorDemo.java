@@ -2,14 +2,12 @@ package com.machinecoding.messagequeues.events.processor;
 
 import com.machinecoding.messagequeues.events.model.Event;
 import com.machinecoding.messagequeues.events.model.EventPriority;
-import com.machinecoding.messagequeues.events.UserRegisteredEvent;
-import com.machinecoding.messagequeues.events.OrderCreatedEvent;
+import com.machinecoding.messagequeues.events.model.UserRegisteredEvent;
+import com.machinecoding.messagequeues.events.model.OrderCreatedEvent;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Demonstration of the Event Processing System with multiple handlers,
